@@ -1,0 +1,31 @@
+1
+Project Inovation
+3
+3
+03.05.2024.
+06.05.2024.
+Izrada sustava za prepoznavanje teksta kojeg je generirao Chat-GPT
+
+2
+Project brAIn
+5
+2
+13.03.2024.
+13.04.2024.
+Osmišljavanje, izrada i prezentacija projekta na temu umjetne inteligencije
+
+3
+ETF-AI
+4
+4
+10.10.2024.
+10.12.2024.
+Izrada sustava za obradu podataka o kretanju vrijednosti dionica te predikciju budućih kretanja
+
+4
+Mc2
+1
+1
+07.02.2024.
+19.06.2024.
+Izrada, dizajn i marketing mobilnih, web i IoT rješenja

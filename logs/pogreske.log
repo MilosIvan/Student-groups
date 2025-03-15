@@ -1,0 +1,132 @@
+2024-01-29 16:22:09,567 INFO [main] o.e.Main [Main.java:17] Program pokrenut.
+2024-01-31 14:11:04,134 INFO [main] o.e.Main [Main.java:24] Program pokrenut.
+2024-01-31 14:13:40,056 INFO [main] o.e.Main [Main.java:24] Program pokrenut.
+2024-01-31 14:14:41,368 INFO [main] o.e.Main [Main.java:24] Program pokrenut.
+2024-01-31 14:16:10,010 INFO [main] o.e.Main [Main.java:24] Program pokrenut.
+2024-01-31 14:16:56,452 INFO [main] o.e.Main [Main.java:24] Program pokrenut.
+2024-01-31 14:24:10,371 INFO [main] o.e.Main [Main.java:25] Program pokrenut.
+2024-01-31 14:26:09,133 INFO [main] o.e.Main [Main.java:25] Program pokrenut.
+2024-01-31 14:26:40,407 INFO [main] o.e.Main [Main.java:25] Program pokrenut.
+2024-01-31 14:27:52,214 INFO [main] o.e.Main [Main.java:25] Program pokrenut.
+2024-01-31 14:30:10,404 INFO [main] o.e.Main [Main.java:25] Program pokrenut.
+2024-01-31 14:33:59,233 INFO [main] o.e.Main [Main.java:25] Program pokrenut.
+2024-01-31 14:38:43,843 INFO [main] o.e.Main [Main.java:25] Program pokrenut.
+2024-01-31 14:47:11,976 INFO [main] o.e.Main [Main.java:25] Program pokrenut.
+2024-01-31 17:18:36,158 INFO [main] o.e.Main [Main.java:30] Program pokrenut.
+2024-01-31 17:19:37,946 INFO [main] o.e.Main [Main.java:30] Program pokrenut.
+2024-01-31 17:22:30,074 INFO [main] o.e.Main [Main.java:30] Program pokrenut.
+2024-01-31 17:25:03,954 INFO [main] o.e.Main [Main.java:30] Program pokrenut.
+2024-01-31 17:26:56,503 INFO [main] o.e.Main [Main.java:30] Program pokrenut.
+2024-01-31 17:28:50,369 INFO [main] o.e.Main [Main.java:30] Program pokrenut.
+2024-01-31 17:29:22,400 INFO [main] o.e.Main [Main.java:30] Program pokrenut.
+2024-01-31 17:30:41,255 INFO [main] o.e.Main [Main.java:30] Program pokrenut.
+2024-01-31 17:32:37,081 INFO [main] o.e.Main [Main.java:30] Program pokrenut.
+2024-01-31 17:33:50,881 INFO [main] o.e.Main [Main.java:30] Program pokrenut.
+2024-02-03 14:16:54,333 ERROR [JavaFX Application Thread] c.e.ApplicationProject [DodajStudentaController.java:117] Nepotpun unos podataka prilikom dodavanja novog studenta
+2024-02-03 14:17:01,868 ERROR [JavaFX Application Thread] c.e.ApplicationProject [DodajStudentaController.java:124] Number format exception prilikom unosa novog studenta
+2024-02-03 14:17:08,645 ERROR [JavaFX Application Thread] c.e.ApplicationProject [DodajStudentaController.java:131] Neispravan unos prosjeka ocjena prilikom dodavanja novog studenta
+2024-02-03 14:17:42,725 ERROR [JavaFX Application Thread] c.e.ApplicationProject [UkloniStudentaController.java:44] Nepotpun unos podataka prilikom uklanjanja studenta
+2024-02-03 14:17:47,306 ERROR [JavaFX Application Thread] c.e.ApplicationProject [UkloniStudentaController.java:51] Number format exception prilikom uklanjanja studenta
+2024-02-03 14:18:08,272 ERROR [JavaFX Application Thread] c.e.ApplicationProject [IzmjeniStudentaController.java:70] Nepotpun unos podataka prilikom izmjene godine studija studenta
+2024-02-03 16:44:24,634 ERROR [JavaFX Application Thread] c.e.ApplicationProject [Serijalizacija.java:35] Greška prilikom deserijalizacije
+2024-02-03 16:45:07,398 ERROR [JavaFX Application Thread] c.e.ApplicationProject [Serijalizacija.java:35] Greška prilikom deserijalizacije
+2024-02-03 16:50:08,205 ERROR [JavaFX Application Thread] c.e.ApplicationProject [Serijalizacija.java:35] Greška prilikom deserijalizacije
+2024-02-03 16:50:22,159 ERROR [JavaFX Application Thread] c.e.ApplicationProject [Serijalizacija.java:35] Greška prilikom deserijalizacije
+2024-02-03 16:52:33,441 ERROR [JavaFX Application Thread] c.e.ApplicationProject [Serijalizacija.java:36] Greška prilikom deserijalizacije
+2024-02-03 20:25:50,523 ERROR [JavaFX Application Thread] c.e.ApplicationProject [IzmjeniNatjecanjeController.java:78] Nepotpun unos podataka prilikom izmjene godine studija studenta
+2024-02-03 20:30:50,269 ERROR [JavaFX Application Thread] c.e.ApplicationProject [Serijalizacija.java:36] Greška prilikom deserijalizacije
+2024-02-03 20:30:50,295 ERROR [JavaFX Application Thread] c.e.ApplicationProject [Serijalizacija.java:20] Greška prilikom serijalizacije
+2024-02-03 20:32:57,325 ERROR [JavaFX Application Thread] c.e.ApplicationProject [Serijalizacija.java:36] Greška prilikom deserijalizacije
+2024-02-03 20:32:57,332 ERROR [JavaFX Application Thread] c.e.ApplicationProject [Serijalizacija.java:20] Greška prilikom serijalizacije
+2024-02-03 20:34:09,028 ERROR [JavaFX Application Thread] c.e.ApplicationProject [Serijalizacija.java:36] Greška prilikom deserijalizacije
+2024-02-03 20:34:09,066 ERROR [JavaFX Application Thread] c.e.ApplicationProject [Serijalizacija.java:20] Greška prilikom serijalizacije
+2024-02-03 20:35:25,844 ERROR [JavaFX Application Thread] c.e.ApplicationProject [Serijalizacija.java:36] Greška prilikom deserijalizacije
+2024-02-04 00:08:32,938 ERROR [JavaFX Application Thread] c.e.ApplicationProject [IzmjeniKvizController.java:76] Nepotpun unos podataka prilikom izmjene grada kviza
+2024-02-04 00:10:22,641 ERROR [JavaFX Application Thread] c.e.ApplicationProject [IzmjeniZabavuController.java:78] Nepotpun unos podataka prilikom izmjene grada zabave
+2024-02-04 00:10:28,792 ERROR [JavaFX Application Thread] c.e.ApplicationProject [IzmjeniZabavuController.java:78] Nepotpun unos podataka prilikom izmjene grada zabave
+2024-02-04 00:21:04,896 ERROR [JavaFX Application Thread] c.e.ApplicationProject [Database.java:1098] Greška prilikom zapisivanja u bazu podataka
+2024-02-04 02:20:56,233 ERROR [JavaFX Application Thread] c.e.ApplicationProject [Serijalizacija.java:36] Greška prilikom deserijalizacije
+2024-02-04 02:22:24,592 ERROR [JavaFX Application Thread] c.e.ApplicationProject [Serijalizacija.java:36] Greška prilikom deserijalizacije
+2024-02-04 02:25:32,319 ERROR [JavaFX Application Thread] c.e.ApplicationProject [Serijalizacija.java:36] Greška prilikom deserijalizacije
+2024-02-04 11:11:45,691 ERROR [JavaFX Application Thread] c.e.ApplicationProject [Serijalizacija.java:36] Greška prilikom deserijalizacije
+2024-02-04 11:12:23,742 ERROR [JavaFX Application Thread] c.e.ApplicationProject [Serijalizacija.java:36] Greška prilikom deserijalizacije
+2024-02-04 11:20:16,158 ERROR [JavaFX Application Thread] c.e.ApplicationProject [Database.java:81] Greška prilikom čitanja baze podataka
+2024-02-04 12:02:54,997 ERROR [JavaFX Application Thread] c.e.ApplicationProject [IzmjeniStudentaController.java:101] Unesen nepostojeći ID prilikom izmjene studenta
+2024-02-04 12:22:21,354 ERROR [JavaFX Application Thread] c.e.ApplicationProject [Serijalizacija.java:39] ClassNotFoundException prilikom deserijalizacije
+2024-02-04 12:25:11,231 ERROR [JavaFX Application Thread] c.e.ApplicationProject [DodajStudentaController.java:128] Nepotpun unos podataka prilikom dodavanja novog studenta
+2024-02-04 12:25:18,444 ERROR [JavaFX Application Thread] c.e.ApplicationProject [DodajStudentaController.java:142] Neispravan unos prosjeka ocjena prilikom dodavanja novog studenta
+2024-02-04 12:25:28,334 ERROR [JavaFX Application Thread] c.e.ApplicationProject [DodajStudentaController.java:135] Number format exception prilikom unosa novog studenta
+2024-02-04 12:25:39,701 ERROR [JavaFX Application Thread] c.e.ApplicationProject [Serijalizacija.java:36] Greška prilikom deserijalizacije
+2024-02-04 12:26:01,749 ERROR [JavaFX Application Thread] c.e.ApplicationProject [IzmjeniStudentaController.java:87] Nepotpun unos podataka prilikom izmjene godine studija studenta
+2024-02-04 12:26:10,546 ERROR [JavaFX Application Thread] c.e.ApplicationProject [IzmjeniStudentaController.java:101] Unesen nepostojeći ID prilikom izmjene studenta
+2024-02-04 12:29:32,216 ERROR [JavaFX Application Thread] c.e.ApplicationProject [UkloniStudentaController.java:71] Unesen nepostojeći ID prilikom uklanjanja studenta
+2024-02-04 18:26:30,434 ERROR [JavaFX Application Thread] c.e.ApplicationProject [DodajKvizController.java:120] Number format exception prilikom unosa novog kviza
+2024-02-04 18:47:49,898 ERROR [JavaFX Application Thread] c.e.ApplicationProject [UkloniKvizController.java:74] Unesen nepostojeći ID prilikom uklanjanja kviza
+2024-02-04 18:51:44,408 ERROR [JavaFX Application Thread] c.e.ApplicationProject [LoginController.java:79] Nepotpun unos podataka prilikom prijave u aplikaciju
+2024-02-04 18:52:02,234 ERROR [JavaFX Application Thread] c.e.ApplicationProject [LoginController.java:79] Nepotpun unos podataka prilikom prijave u aplikaciju
+2024-02-04 18:57:01,514 ERROR [JavaFX Application Thread] c.e.ApplicationProject [DodajStudentaController.java:139] Number format exception prilikom unosa novog studenta
+2024-02-04 19:00:53,121 ERROR [JavaFX Application Thread] c.e.ApplicationProject [DodajNatjecanjeController.java:116] Nepotpun unos podataka prilikom dodavanja novog natjecanja
+2024-02-04 19:01:12,135 ERROR [JavaFX Application Thread] c.e.ApplicationProject [DodajNatjecanjeController.java:123] Number format exception prilikom unosa novog natjecanja
+2024-02-04 19:01:32,435 ERROR [JavaFX Application Thread] c.e.ApplicationProject [UkloniNatjecanjeController.java:75] Unesen nepostojeći ID prilikom uklanjanja natjecanja
+2024-02-04 22:51:01,912 ERROR [JavaFX Application Thread] c.e.ApplicationProject [UclaniStudentaUKlubController.java:76] Nepotpun unos podataka prilikom učlanjenja studenta u klub studenata
+2024-02-04 22:51:08,054 ERROR [JavaFX Application Thread] c.e.ApplicationProject [UclaniStudentaUKlubController.java:76] Nepotpun unos podataka prilikom učlanjenja studenta u klub studenata
+2024-02-04 22:51:34,821 ERROR [JavaFX Application Thread] c.e.ApplicationProject [UclaniStudentaUKlubController.java:83] Number format exception prilikom učlanjenja studenta u klub studenata
+2024-02-04 22:51:43,156 ERROR [JavaFX Application Thread] c.e.ApplicationProject [UclaniStudentaUKlubController.java:90] Unesen nepostojeći ID prilikom učlanjenja studenta u klub studenata
+2024-02-05 12:21:30,286 ERROR [JavaFX Application Thread] c.e.ApplicationProject [Database.java:78] Greška prilikom čitanja baze podataka
+2024-02-05 13:05:26,925 ERROR [JavaFX Application Thread] c.e.ApplicationProject [UclaniStudentaUKlubController.java:77] Nepotpun unos podataka prilikom učlanjenja studenta u klub studenata
+2024-02-05 13:05:37,778 ERROR [JavaFX Application Thread] c.e.ApplicationProject [UclaniStudentaUKlubController.java:77] Nepotpun unos podataka prilikom učlanjenja studenta u klub studenata
+2024-02-05 13:05:44,837 ERROR [JavaFX Application Thread] c.e.ApplicationProject [UclaniStudentaUKlubController.java:84] Number format exception prilikom učlanjenja studenta u klub studenata
+2024-02-05 13:05:53,494 ERROR [JavaFX Application Thread] c.e.ApplicationProject [UclaniStudentaUKlubController.java:91] Unesen nepostojeći ID prilikom učlanjenja studenta u klub studenata
+2024-02-05 13:35:32,719 ERROR [JavaFX Application Thread] c.e.ApplicationProject [Database.java:598] Greška prilikom zapisivanja u bazu podataka
+2024-02-05 13:37:16,350 ERROR [JavaFX Application Thread] c.e.ApplicationProject [Database.java:598] Greška prilikom zapisivanja u bazu podataka
+2024-02-05 15:36:36,309 ERROR [Thread-3] c.e.ApplicationProject [Serijalizacija.java:36] Greška prilikom deserijalizacije
+2024-02-05 15:38:37,759 ERROR [Thread-3] c.e.ApplicationProject [Serijalizacija.java:36] Greška prilikom deserijalizacije
+2024-02-05 15:40:51,500 ERROR [Thread-3] c.e.ApplicationProject [Serijalizacija.java:36] Greška prilikom deserijalizacije
+2024-02-05 15:43:09,201 ERROR [Thread-3] c.e.ApplicationProject [Serijalizacija.java:36] Greška prilikom deserijalizacije
+2024-02-05 15:45:13,196 ERROR [Thread-3] c.e.ApplicationProject [Serijalizacija.java:36] Greška prilikom deserijalizacije
+2024-02-05 15:49:04,063 ERROR [JavaFX Application Thread] c.e.ApplicationProject [Serijalizacija.java:36] Greška prilikom deserijalizacije
+2024-02-05 15:51:13,781 ERROR [JavaFX Application Thread] c.e.ApplicationProject [Serijalizacija.java:36] Greška prilikom deserijalizacije
+2024-02-05 15:57:31,184 ERROR [Thread-3] c.e.ApplicationProject [Serijalizacija.java:36] Greška prilikom deserijalizacije
+2024-02-05 15:59:39,876 ERROR [Thread-3] c.e.ApplicationProject [Serijalizacija.java:36] Greška prilikom deserijalizacije
+2024-02-05 16:05:20,286 ERROR [Thread-3] c.e.ApplicationProject [Serijalizacija.java:36] Greška prilikom deserijalizacije
+2024-02-05 16:06:42,602 ERROR [Thread-3] c.e.ApplicationProject [Serijalizacija.java:36] Greška prilikom deserijalizacije
+2024-02-05 16:06:52,608 ERROR [Thread-3] c.e.ApplicationProject [Serijalizacija.java:36] Greška prilikom deserijalizacije
+2024-02-05 16:07:02,610 ERROR [Thread-3] c.e.ApplicationProject [Serijalizacija.java:36] Greška prilikom deserijalizacije
+2024-02-05 16:07:12,612 ERROR [Thread-3] c.e.ApplicationProject [Serijalizacija.java:36] Greška prilikom deserijalizacije
+2024-02-05 16:07:21,161 ERROR [pool-2-thread-1] c.e.ApplicationProject [Serijalizacija.java:36] Greška prilikom deserijalizacije
+2024-02-05 16:33:11,452 ERROR [JavaFX Application Thread] c.e.ApplicationProject [LoginController.java:82] Nepotpun unos podataka prilikom prijave u aplikaciju
+2024-02-05 16:33:19,438 ERROR [JavaFX Application Thread] c.e.ApplicationProject [LoginController.java:82] Nepotpun unos podataka prilikom prijave u aplikaciju
+2024-02-05 19:48:09,261 ERROR [JavaFX Application Thread] c.e.ApplicationProject [LoginController.java:79] Nepotpun unos podataka prilikom prijave u aplikaciju
+2024-02-05 19:48:15,949 ERROR [JavaFX Application Thread] c.e.ApplicationProject [LoginController.java:79] Nepotpun unos podataka prilikom prijave u aplikaciju
+2024-02-05 19:51:14,630 ERROR [JavaFX Application Thread] c.e.ApplicationProject [UclaniStudentaUKlubController.java:77] Nepotpun unos podataka prilikom učlanjenja studenta u klub studenata
+2024-02-05 19:51:23,299 ERROR [JavaFX Application Thread] c.e.ApplicationProject [UclaniStudentaUKlubController.java:91] Unesen nepostojeći ID prilikom učlanjenja studenta u klub studenata
+2024-02-06 12:18:25,523 ERROR [JavaFX Application Thread] c.e.ApplicationProject [Database.java:209] Greška prilikom čitanja baze podataka
+2024-02-06 12:51:52,547 ERROR [JavaFX Application Thread] c.e.ApplicationProject [DodajPredavanjeController.java:117] Nepotpun unos podataka prilikom dodavanja novog predavanja
+2024-02-06 17:36:32,201 ERROR [JavaFX Application Thread] c.e.ApplicationProject [LoginController.java:126] Nepotpun unos podataka prilikom registracije
+2024-02-06 17:36:38,052 ERROR [JavaFX Application Thread] c.e.ApplicationProject [LoginController.java:126] Nepotpun unos podataka prilikom registracije
+2024-02-06 17:36:45,276 ERROR [JavaFX Application Thread] c.e.ApplicationProject [LoginController.java:119] Uneseno postojece korisnicko ime prilikom registracije
+2024-02-06 18:06:25,233 ERROR [JavaFX Application Thread] c.e.ApplicationProject [DodajAdminaController.java:62] Nepotpun unos podataka prilikom dodavanja novog admina
+2024-02-06 18:24:14,422 ERROR [JavaFX Application Thread] c.e.ApplicationProject [DodajAdminaController.java:70] Nepotpun unos podataka prilikom dodavanja novog admina
+2024-02-08 11:41:54,136 ERROR [JavaFX Application Thread] c.e.ApplicationProject [Database.java:209] Greška prilikom čitanja baze podataka
+2024-02-08 11:41:55,552 ERROR [JavaFX Application Thread] c.e.ApplicationProject [Database.java:361] Greška prilikom čitanja baze podataka
+2024-02-08 13:45:38,838 ERROR [JavaFX Application Thread] c.e.ApplicationProject [Database.java:209] Greška prilikom čitanja baze podataka
+2024-02-08 13:45:40,258 ERROR [JavaFX Application Thread] c.e.ApplicationProject [Database.java:361] Greška prilikom čitanja baze podataka
+2024-02-08 16:32:42,815 INFO [pool-2-thread-1] c.e.ApplicationProject [TombolaThread.java:63] Odigrana tombola na događaju: Kviz TVZ - SPORT. Organizator: Klub studenata za umjetnu inteligenciju TVZ. Pobjednik: Roko Đurinec
+2024-02-08 18:18:24,311 INFO [pool-2-thread-1] c.e.ApplicationProject [VukodlakThread.java:117] Odigran vukodlak na događaju: Kviz TVZ - GLAZBA. Organizator: Klub studenata za umjetnu inteligenciju TVZ. Pobijedilo je selo.
+2024-02-08 19:03:17,453 ERROR [JavaFX Application Thread] c.e.ApplicationProject [DodajAdminaController.java:71] Nepotpun unos podataka prilikom dodavanja novog admina
+2024-02-08 20:35:15,268 ERROR [JavaFX Application Thread] c.e.ApplicationProject [DodajStudentaController.java:132] Nepotpun unos podataka prilikom dodavanja novog studenta
+2024-02-08 20:35:27,373 ERROR [JavaFX Application Thread] c.e.ApplicationProject [UkloniStudentaController.java:61] Nepotpun unos podataka prilikom uklanjanja studenta
+2024-02-08 20:35:34,019 ERROR [JavaFX Application Thread] c.e.ApplicationProject [UkloniStudentaController.java:75] Unesen nepostojeći ID prilikom uklanjanja studenta
+2024-02-08 20:35:43,325 ERROR [JavaFX Application Thread] c.e.ApplicationProject [Database.java:490] Greška prilikom zapisivanja u bazu podataka
+2024-02-12 10:56:06,699 ERROR [JavaFX Application Thread] c.e.ApplicationProject [LoginController.java:82] Nepotpun unos podataka prilikom prijave u aplikaciju
+2024-02-12 10:56:14,029 ERROR [JavaFX Application Thread] c.e.ApplicationProject [LoginController.java:82] Nepotpun unos podataka prilikom prijave u aplikaciju
+2024-02-12 10:57:51,144 ERROR [JavaFX Application Thread] c.e.ApplicationProject [DodajAdminaController.java:71] Nepotpun unos podataka prilikom dodavanja novog admina
+2024-02-12 11:00:42,718 INFO [pool-2-thread-1] c.e.ApplicationProject [TombolaThread.java:64] Odigrana tombola na događaju: Brucošijada - TVZ. Organizator: Klub studenata za umjetnu inteligenciju TVZ. Pobjednik: Fran Katančić
+2024-02-12 11:21:36,922 INFO [pool-2-thread-1] c.e.ApplicationProject [VukodlakThread.java:122] Odigran vukodlak na događaju: Team building. Organizator: Klub studenata za umjetnu inteligenciju FER. Pobijedili su vukodlaci.
+2025-02-01 21:09:41,857 ERROR [JavaFX Application Thread] c.e.ApplicationProject [Database.java:78] Greška prilikom čitanja baze podataka
+2025-02-01 21:09:43,261 ERROR [JavaFX Application Thread] c.e.ApplicationProject [Database.java:78] Greška prilikom čitanja baze podataka
+2025-02-02 11:50:10,747 INFO [pool-3-thread-1] c.e.ApplicationProject [TombolaThread.java:64] Odigrana tombola na događaju: Kviz znanja AI. Organizator: Klub studenata za umjetnu inteligenciju FESB. Pobjednik: Stipe Butula
+2025-02-06 17:17:57,366 ERROR [JavaFX Application Thread] c.e.ApplicationProject [LoginController.java:82] Nepotpun unos podataka prilikom prijave u aplikaciju
+2025-02-06 17:18:02,786 ERROR [JavaFX Application Thread] c.e.ApplicationProject [LoginController.java:82] Nepotpun unos podataka prilikom prijave u aplikaciju
+2025-02-06 17:19:45,382 ERROR [JavaFX Application Thread] c.e.ApplicationProject [LoginController.java:126] Nepotpun unos podataka prilikom registracije
+2025-03-15 11:39:00,730 ERROR [JavaFX Application Thread] c.e.ApplicationProject [LoginController.java:79] Greška prilikom čitanja datoteke userData
