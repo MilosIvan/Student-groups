@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.controllers.PoslovniDogadajController">
+    <fx:include source="izbornik.fxml" />
+    <TabPane layoutY="25.0" prefHeight="476.0" prefWidth="500.0" tabClosingPolicy="UNAVAILABLE">
+        <Tab text="Predavanja">
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                <GridPane prefHeight="446.0" prefWidth="500.0">
+                    <columnConstraints>
+                        <ColumnConstraints hgrow="SOMETIMES" prefWidth="250.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" prefWidth="250.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="250.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                        <RowConstraints maxHeight="216.19998779296876" minHeight="10.0" prefHeight="144.19998779296876" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="216.19998779296876" minHeight="10.0" prefHeight="100.0" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="216.19998779296876" minHeight="10.0" prefHeight="100.0" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="302.6000122070312" minHeight="10.0" prefHeight="302.6000122070312" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                    <Label text="Predavanja" GridPane.columnSpan="3" GridPane.halignment="CENTER">
+                        <font>
+                            <Font name="System Bold" size="24.0" />
+                        </font>
+                    </Label>
+                    <TableView fx:id="predavanjaTableView" onMouseClicked="#prikaziInfoPredavanja" prefHeight="200.0" prefWidth="501.0" GridPane.columnSpan="3" GridPane.rowIndex="3">
+                        <columns>
+                            <TableColumn fx:id="idPredavanjaTableColumn" prefWidth="32.79998815059662" text="ID" />
+                            <TableColumn fx:id="nazivPredavanjaTableColumn" prefWidth="133.60004425048828" text="Naziv" />
+                            <TableColumn fx:id="organizatorPredavanjaTableColumn" prefWidth="106.4000244140625" text="Klub organizator" />
+                            <TableColumn fx:id="gradPredavanjaTableColumn" prefWidth="72.800048828125" text="Grad" />
+                            <TableColumn fx:id="datumPocetkaPredavanjaTableColumn" prefWidth="78.4000244140625" text="Pocetak" />
+                            <TableColumn fx:id="datumZavrsetkaPredavanjaTableColumn" prefWidth="71.99996948242188" text="Zavrsetak" />
+                        </columns>
+                    </TableView>
+                    <Button mnemonicParsing="false" onAction="#pretragaPredavanja" text="Pretraga" GridPane.columnSpan="3" GridPane.halignment="CENTER" GridPane.rowIndex="1" />
+                    <Button fx:id="dodajPredavanjeButton" mnemonicParsing="false" onAction="#dodajPredavanje" text="Dodaj" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" />
+               <Button fx:id="ukloniPredavanjeButton" mnemonicParsing="false" onAction="#ukloniPredavanje" text="Ukloni" GridPane.halignment="CENTER" GridPane.rowIndex="2" />
+               <Button fx:id="izmjeniPredavanjeButton" mnemonicParsing="false" onAction="#izmjeniPredavanje" text="Izmjeni" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="2" />
+                </GridPane>
+            </AnchorPane>
+        </Tab>
+        <Tab text="Projekti">
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                <GridPane prefHeight="446.0" prefWidth="500.0">
+                    <columnConstraints>
+                        <ColumnConstraints hgrow="SOMETIMES" prefWidth="250.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" prefWidth="250.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="250.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                        <RowConstraints maxHeight="216.19998779296876" minHeight="10.0" prefHeight="144.19998779296876" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="216.19998779296876" minHeight="10.0" prefHeight="100.0" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="216.19998779296876" minHeight="10.0" prefHeight="100.0" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="302.6000122070312" minHeight="10.0" prefHeight="302.6000122070312" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                    <Label text="Projekti" GridPane.columnSpan="3" GridPane.halignment="CENTER">
+                        <font>
+                            <Font name="System Bold" size="24.0" />
+                        </font>
+                    </Label>
+                    <TableView fx:id="projektiTableView" onMouseClicked="#prikaziInfoProjekta" prefHeight="200.0" prefWidth="501.0" GridPane.columnSpan="3" GridPane.rowIndex="3">
+                        <columns>
+                            <TableColumn fx:id="idProjektaTableColumn" prefWidth="32.79998815059662" text="ID" />
+                            <TableColumn fx:id="nazivProjektaTableColumn" prefWidth="133.60004425048828" text="Naziv" />
+                            <TableColumn fx:id="organizatorProjektaTableColumn" prefWidth="106.4000244140625" text="Klub organizator" />
+                            <TableColumn fx:id="gradProjektaTableColumn" prefWidth="72.800048828125" text="Grad" />
+                            <TableColumn fx:id="datumPocetkaProjektaTableColumn" prefWidth="78.4000244140625" text="Pocetak" />
+                            <TableColumn fx:id="datumZavrsetkaProjektaTableColumn" prefWidth="71.99996948242188" text="Zavrsetak" />
+                        </columns>
+                    </TableView>
+                    <Button mnemonicParsing="false" onAction="#pretragaProjekata" text="Pretraga" GridPane.columnSpan="3" GridPane.halignment="CENTER" GridPane.rowIndex="1" />
+                    <Button fx:id="dodajProjektButton" mnemonicParsing="false" onAction="#dodajProjekt" text="Dodaj" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" />
+               <Button fx:id="ukloniProjektButton" mnemonicParsing="false" onAction="#ukloniProjekt" text="Ukloni" GridPane.halignment="CENTER" GridPane.rowIndex="2" />
+               <Button fx:id="izmjeniProjektButton" mnemonicParsing="false" onAction="#izmjeniProjekt" text="Izmjeni" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="2" />
+                </GridPane>
+            </AnchorPane>
+        </Tab>
+        <Tab text="Natjecanja">
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                <GridPane prefHeight="446.0" prefWidth="500.0">
+                    <columnConstraints>
+                        <ColumnConstraints hgrow="SOMETIMES" prefWidth="250.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" prefWidth="250.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="250.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                        <RowConstraints maxHeight="216.19998779296876" minHeight="10.0" prefHeight="144.19998779296876" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="216.19998779296876" minHeight="10.0" prefHeight="100.0" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="216.19998779296876" minHeight="10.0" prefHeight="100.0" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="302.6000122070312" minHeight="10.0" prefHeight="302.6000122070312" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                    <Label text="Natjecanja" GridPane.columnSpan="3" GridPane.halignment="CENTER">
+                        <font>
+                            <Font name="System Bold" size="24.0" />
+                        </font>
+                    </Label>
+                    <TableView fx:id="natjecanjeTableView" onMouseClicked="#prikaziInfoNatjecanja" prefHeight="200.0" prefWidth="501.0" GridPane.columnSpan="3" GridPane.rowIndex="3">
+                        <columns>
+                            <TableColumn fx:id="idNatjecanjaTableColumn" prefWidth="32.79998815059662" text="ID" />
+                            <TableColumn fx:id="nazivNatjecanjaTableColumn" prefWidth="133.60004425048828" text="Naziv" />
+                            <TableColumn fx:id="organizatorNatjecanjaTableColumn" prefWidth="106.4000244140625" text="Klub organizator" />
+                            <TableColumn fx:id="gradNatjecanjaTableColumn" prefWidth="72.800048828125" text="Grad" />
+                            <TableColumn fx:id="datumPocetkaNatjecanjaTableColumn" prefWidth="78.4000244140625" text="Pocetak" />
+                            <TableColumn fx:id="datumZavrsetkaNatjecanjaTableColumn" prefWidth="71.99996948242188" text="Zavrsetak" />
+                        </columns>
+                    </TableView>
+                    <Button mnemonicParsing="false" onAction="#pretragaNatjecanja" text="Pretraga" GridPane.columnSpan="3" GridPane.halignment="CENTER" GridPane.rowIndex="1" />
+                    <Button fx:id="dodajNatjecanjeButton" mnemonicParsing="false" onAction="#dodajNatjecanje" text="Dodaj" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" />
+               <Button fx:id="ukloniNatjecanjeButton" mnemonicParsing="false" onAction="#ukloniNatjecanje" text="Ukloni" GridPane.halignment="CENTER" GridPane.rowIndex="2" />
+               <Button fx:id="izmjeniNatjecanjeButton" mnemonicParsing="false" onAction="#izmjeniNatjecanje" text="Izmjeni" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="2" />
+                </GridPane>
+            </AnchorPane>
+        </Tab>
+    </TabPane>
+</AnchorPane>

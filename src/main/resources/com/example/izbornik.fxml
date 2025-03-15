@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="25.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.utils.OtvaranjeEkrana">
+    <MenuBar prefHeight="25.0" prefWidth="500.0">
+        <Menu mnemonicParsing="false" text="Studenti">
+            <MenuItem mnemonicParsing="false" onAction="#openStudentiPregled" text="Pregled" />
+            <MenuItem fx:id="dodajStudenta" mnemonicParsing="false" onAction="#openDodajStudenta" text="Dodaj" />
+            <MenuItem fx:id="ukloniStudenta" mnemonicParsing="false" onAction="#openUkloniStudenta" text="Ukloni" />
+            <MenuItem fx:id="izmjeniStudenta" mnemonicParsing="false" onAction="#openIzmjeniStudenta" text="Izmjeni" />
+        </Menu>
+        <Menu mnemonicParsing="false" text="Klubovi studenata">
+            <MenuItem mnemonicParsing="false" onAction="#openKluboviStudenataPregled" text="Pregled" />
+            <MenuItem mnemonicParsing="false" onAction="#openStudentiPoKlubovima" text="Studenti po klubovima" />
+            <MenuItem fx:id="uclaniStudentaUKlubMenuItem" mnemonicParsing="false" onAction="#uclaniStudentaUKlub" text="Učlani studenta u klub" />
+            <MenuItem mnemonicParsing="false" onAction="#openNajboljiStudent" text="Najbolji student" />
+        </Menu>
+        <Menu mnemonicParsing="false" text="Događaji">
+            <MenuItem mnemonicParsing="false" onAction="#openPoslovniDogadaj" text="Poslovni događaji" />
+            <MenuItem mnemonicParsing="false" onAction="#openZabavniDogadaj" text="Zabavni događaji" />
+            <MenuItem mnemonicParsing="false" onAction="#openFiltrirajDogadaje" text="Filtriraj" />
+        </Menu>
+      <Menu fx:id="prikaziIzmjeneMenu" mnemonicParsing="false" onAction="#openPrikaziIzmjene" text="Prikaži izmjene">
+          <MenuItem mnemonicParsing="false" onAction="#openPrikaziIzmjene" text="Prikaži izmjene" />
+      </Menu>
+        <Menu fx:id="adminMenu" mnemonicParsing="false" text="Admin">
+            <MenuItem mnemonicParsing="false" onAction="#dodajAdmina" text="Dodaj admina"/>
+        </Menu>
+        <Menu mnemonicParsing="false" text="Odjava">
+            <MenuItem mnemonicParsing="false" onAction="#odjaviSe" text="Odjavi se"/>
+        </Menu>
+    </MenuBar>
+</AnchorPane>
