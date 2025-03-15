@@ -1,0 +1,7 @@
+¬í sr java.util.ArrayListxÒ™Ça I sizexp    w    sr com.example.utils.Promjenaw'’£wà[Õ L 
+datumIVrijemet Ljava/time/LocalDateTime;L  entitett Ljava/lang/String;L idt Ljava/lang/Integer;L korisnickiPodacit Lcom/example/KorisnickiPodaci;L novaVrijednostq ~ L staraVrijednostq ~ xpsr 
+java.time.Ser•]„º"H²  xpw   è 	k”txt Dodan student Josip ÄŒulinasr java.lang.Integerâ ¤÷‡8 I valuexr java.lang.Number†¬•”à‹  xp    sr com.example.KorisnickiPodaci         L 
+passwordInputq ~ L 
+usernameInputq ~ xpt milost ivant  q ~ sq ~ sq ~ w   è )/-Dxt Student: prosjek ocjenasq ~    ásq ~ t milost ivant 4.3t 4.50sq ~ sq ~ w   è /2ôÏxt Student: godina studijasq ~    ásq ~ t milost ivant 1t 3sq ~ sq ~ w   è'ç˜”xt Uklonjen student Josip ÄŒulinasq ~    ásq ~ t milost ivant  q ~ ,sq ~ sq ~ w   è
+,9ñ„Üxt Student: godina studijasq ~    sq ~ t milost ivant 3t 1sq ~ sq ~ w   è
+9Ð,xt Student: godina studijasq ~    sq ~ t milost ivant 1t 3sq ~ sq ~ w   è#+7¤xt Uklonjen student Luka AniÄ‡sq ~    sq ~ t milost ivant  q ~ Fx
